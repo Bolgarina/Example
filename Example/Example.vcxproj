@@ -64,7 +64,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Blu.cpp" />
+    <ClCompile Include="CallVisitor.cpp" />
+    <ClCompile Include="CountVisitor.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Red.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Blu.h" />
+    <ClInclude Include="CallVisitor.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="CountVisitor.h" />
+    <ClInclude Include="Red.h" />
+    <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
